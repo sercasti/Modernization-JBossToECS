@@ -1,0 +1,14 @@
+JarIndex-Version: 1.0
+
+numberguess.war
+META-INF
+WEB-INF
+WEB-INF/classes
+WEB-INF/classes/org
+WEB-INF/classes/org/jboss
+WEB-INF/classes/org/jboss/as
+WEB-INF/classes/org/jboss/as/quickstarts
+WEB-INF/classes/org/jboss/as/quickstarts/numberguess
+home.xhtml
+index.html
+

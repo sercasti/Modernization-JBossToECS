@@ -1,0 +1,88 @@
+{
+       "a2CTemplateVersion": "1.0",
+       "applicationId": "java-jboss-56611d5f",
+       "imageName": "java-jboss-56611d5f",
+       "exposedPorts": [
+              {
+                     "localPort": 8443,
+                     "protocol": "tcp"
+              },
+              {
+                     "localPort": 8080,
+                     "protocol": "tcp"
+              },
+              {
+                     "localPort": 9990,
+                     "protocol": "tcp"
+              }
+       ],
+       "environment": [],
+       "ecrParameters": {
+              "ecrRepoTag": "latest"
+       },
+       "ecsParameters": {
+              "createEcsArtifacts": true,
+              "ecsFamily": "java-jboss-56611d5f",
+              "cpu": 2,
+              "memory": 4096,
+              "dockerSecurityOption": "",
+              "publicApp": true,
+              "stackName": "a2c-java-jboss-56611d5f-ECS",
+              "resourceTags": [
+                     {
+                            "key": "example-key",
+                            "value": "example-value"
+                     }
+              ],
+              "reuseResources": {
+                     "vpcId": "",
+                     "reuseExistingA2cStack": {
+                            "cfnStackName": "",
+                            "microserviceUrlPath": ""
+                     },
+                     "sshKeyPairName": "",
+                     "acmCertificateArn": ""
+              },
+              "gMSAParameters": {
+                     "domainSecretsArn": "",
+                     "domainDNSName": "",
+                     "domainNetBIOSName": "",
+                     "createGMSA": false,
+                     "gMSAName": ""
+              },
+              "deployTarget": "FARGATE"
+       },
+       "fireLensParameters": {
+              "enableFireLensLogging": false,
+              "logDestinations": [
+                     {
+                            "service": "cloudwatch",
+                            "regexFilter": "^.*INFO.*$",
+                            "streamName": "Info"
+                     },
+                     {
+                            "service": "cloudwatch",
+                            "regexFilter": "^.*WARN.*$",
+                            "streamName": "Warn"
+                     }
+              ]
+       },
+       "eksParameters": {
+              "createEksArtifacts": false,
+              "stackName": "a2c-java-jboss-56611d5f-EKS",
+              "reuseResources": {
+                     "vpcId": "",
+                     "reuseExistingA2cStack": {
+                            "cfnStackName": ""
+                     },
+                     "sshKeyPairName": ""
+              },
+              "gMSAParameters": {
+                     "domainSecretsArn": "",
+                     "domainDNSName": "",
+                     "domainNetBIOSName": "",
+                     "createGMSA": false,
+                     "gMSAName": ""
+              }
+       }
+}

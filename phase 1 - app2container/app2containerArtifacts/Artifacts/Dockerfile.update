@@ -1,0 +1,4 @@
+FROM java-jboss-56611d5f:latest
+
+# Follow the below example to update files
+# COPY ["generic_config_file", "/root/app2container/java-jboss-56611d5f/Artifacts/generic_config_file"]

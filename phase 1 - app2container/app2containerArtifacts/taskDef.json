@@ -1,0 +1,83 @@
+{
+   "ContainerDefinitions": [
+      {
+         "Command": null,
+         "Cpu": 2048,
+         "DependsOn": null,
+         "DisableNetworking": null,
+         "DnsSearchDomains": null,
+         "DnsServers": null,
+         "DockerLabels": null,
+         "DockerSecurityOptions": null,
+         "EntryPoint": null,
+         "Environment": null,
+         "EnvironmentFiles": null,
+         "Essential": null,
+         "ExtraHosts": null,
+         "FirelensConfiguration": null,
+         "HealthCheck": null,
+         "Hostname": null,
+         "Image": "813138573856.dkr.ecr.us-east-2.amazonaws.com/java-jboss-56611d5f:latest",
+         "Interactive": null,
+         "Links": null,
+         "LinuxParameters": null,
+         "LogConfiguration": null,
+         "Memory": 4096,
+         "MemoryReservation": null,
+         "MountPoints": null,
+         "Name": "java-jboss-56611d5f",
+         "PortMappings": [
+            {
+               "ContainerPort": 8443,
+               "HostPort": 8443,
+               "Protocol": "tcp"
+            },
+            {
+               "ContainerPort": 8080,
+               "HostPort": 8080,
+               "Protocol": "tcp"
+            },
+            {
+               "ContainerPort": 9990,
+               "HostPort": 9990,
+               "Protocol": "tcp"
+            }
+         ],
+         "Privileged": null,
+         "PseudoTerminal": null,
+         "ReadonlyRootFilesystem": null,
+         "RepositoryCredentials": null,
+         "ResourceRequirements": null,
+         "Secrets": null,
+         "StartTimeout": null,
+         "StopTimeout": null,
+         "SystemControls": null,
+         "Ulimits": null,
+         "User": null,
+         "VolumesFrom": null,
+         "WorkingDirectory": null
+      }
+   ],
+   "Cpu": "2048",
+   "ExecutionRoleArn": "arn:aws:iam::813138573856:role/ecsTaskExecutionRole",
+   "Family": "java-jboss-56611d5f",
+   "InferenceAccelerators": null,
+   "IpcMode": null,
+   "Memory": "4096",
+   "NetworkMode": "awsvpc",
+   "PidMode": null,
+   "PlacementConstraints": null,
+   "ProxyConfiguration": null,
+   "RequiresCompatibilities": [
+      "EC2",
+      "FARGATE"
+   ],
+   "Tags": [
+      {
+         "Key": "a2c-generated",
+         "Value": "ecs-taskdef"
+      }
+   ],
+   "TaskRoleArn": null,
+   "Volumes": null
+}

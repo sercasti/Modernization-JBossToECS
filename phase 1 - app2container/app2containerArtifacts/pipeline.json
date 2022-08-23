@@ -1,0 +1,26 @@
+{
+	"a2CTemplateVersion": "1.0",
+	"sourceInfo": {
+		"CodeCommit": {
+			"repositoryName": "a2c-java-jboss-56611d5f-ecs",
+			"branch": "master"
+		}
+	},
+	"imageInfo": {
+		"image": "813138573856.dkr.ecr.us-east-2.amazonaws.com/java-jboss-56611d5f:latest"
+	},
+	"releaseInfo": {
+		"ECS": {
+			"beta": {
+				"clusterName": "a2c-java-jboss-56611d5f-ECS-Cluster",
+				"serviceName": "a2c-java-jboss-56611d5f-ECS-LBWebAppStack-2FRR3F7CD3OK-Service-R7GbpG8y06bY",
+				"enabled": true
+			},
+			"prod": {
+				"clusterName": "",
+				"serviceName": "",
+				"enabled": false
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+#Sun Apr 04 12:53:51 ART 2021
+configuration*?=5261D9B579F5E1C3CB28E5CE86E7A92A87447C49
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E
+/Users/scastine/dev/app2Container/jbossApps/helloworld-html5/src/main/java/org/jboss/as/quickstarts/html5rest/HelloService.java=1617498290138
+/Users/scastine/dev/app2Container/jbossApps/helloworld-html5/src/main/java/org/jboss/as/quickstarts/html5rest/HelloWorld.java=1617498290139
